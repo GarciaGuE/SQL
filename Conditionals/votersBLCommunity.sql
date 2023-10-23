@@ -1,0 +1,2 @@
+SELECT Voters.fullName, Provinces.community FROM Voters, Localities, Provinces
+WHERE Voters.locality=Localities.localityID AND Localities.province=Provinces.provinceID AND Localities.populationL>'300000';

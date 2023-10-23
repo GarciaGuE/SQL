@@ -1,0 +1,1 @@
+SELECT eventName||' type '||eventType AS 'Concatenation' FROM Events;

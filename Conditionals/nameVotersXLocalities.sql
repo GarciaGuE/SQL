@@ -1,0 +1,2 @@
+SELECT SUBSTR(V.fullName, 1, INSTR(fullName, ' ')) "Name", V.locality, P.community FROM Voters V, Provinces P, Localities L
+WHERE L.localityID=V.locality AND L.province=P.provinceID AND V.locality IN (1,3,9);
