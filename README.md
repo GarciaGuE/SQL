@@ -6,7 +6,7 @@ sudo apt install sqlite3
 ```
 
 ## Usage
-It is not necessary to install any software to run the queries. You can use the sqlite3 command line tool to run the queries. The database is already included in the repository, with the extension .sqlite and with VSCode you can open it and see the tables and the data.
+It is not necessary to install any software to run the queries. You can use the sqlite3 command line tool to run the queries. Create a database with the extension .sqlite and with VSCode you can open it and see the tables and the data.
 
 ```bash
 sqlite3 database.sqlite
