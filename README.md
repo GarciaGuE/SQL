@@ -34,4 +34,4 @@ Also, you can save the results of a query in a file:
 .read query.sql
 ```
 
-Important: Some queries use OracleSQL syntax, so they will not work with sqlite3 (Like Date format, which should be changed to 'YYYY-MM-DD'). Instead, use the queries commented with sqlite3 syntax.
+**Important**: Some queries use OracleSQL syntax, so they will not work with sqlite3 (Like Date format, which should be changed to 'YYYY-MM-DD'). Instead, use the queries commented with sqlite3 syntax.
